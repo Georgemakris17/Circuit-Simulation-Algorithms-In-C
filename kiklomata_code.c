@@ -575,10 +575,6 @@ void methodos_araion_pinakon(FILE *file, float *arrayB,struct pinakas_komvon *s2
     //B = cs_spalloc(A->m, 1, size2, 1, 1);
     c = cs_spalloc(A->m,A->n,A->nzmax,1,1);
     
-
-    
-    
-    
     // Δημιουργία ενός νέου πίνακα double και αντιγραφή των στοιχείων του πίνακα B
     double *arrayB_double = (double*)malloc(c->n * sizeof(double));
     if (arrayB_double == NULL) {
