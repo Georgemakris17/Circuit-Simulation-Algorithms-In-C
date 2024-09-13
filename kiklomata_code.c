@@ -576,10 +576,6 @@ void methodos_araion_pinakon(FILE *file, float *arrayB,struct pinakas_komvon *s2
     c = cs_spalloc(A->m,A->n,A->nzmax,1,1);
     
 
-    // Προσθήκη των στοιχείων του πίνακα B
-    // for (i = 0; i < size2; i++) {
-    //     cs_entry(B, i, 0, arrayBnew[i]);
-    // }
     
     
     
