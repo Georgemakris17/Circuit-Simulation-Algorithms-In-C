@@ -463,11 +463,6 @@ void methodos_gacobi_gauss_sieder(float **arrayA,float *arrayB,int size2){
     float apostasi=0,s;
     FILE *new_file;
     new_file = fopen("arxeio_katagrafon.txt", "w");
-    //  arrayA[0][0] = 7; arrayA[0][1] = -2; arrayA[0][2] = 1; arrayA[0][3]=0;
-    //  arrayA[1][0] = 1; arrayA[1][1] = -9; arrayA[1][2] = 3; arrayA[1][3]=-1;
-    //  arrayA[2][0] = 2; arrayA[2][1] = 0; arrayA[2][2] = 10; arrayA[2][3] =1;
-    //  arrayA[3][0] = 1; arrayA[3][1] =-1; arrayA[3][2] =1; arrayA[3][3]=6;
-    // arrayB[0]= 17; arrayB[1]=13;arrayB[2]=15; arrayB[3]=10;
     for(i=0;i<size2;i++){
         arrayXold[i]=0;
         arrayXnew[i]=0;
