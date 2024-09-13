@@ -329,14 +329,8 @@ void methodos_sosti(FILE *file, int size,struct pinakas_komvon *s2, int size2,st
     else{
         methodos_araion_pinakon(file,arrayB,s2,size2,size);
     }
-    
-   
-    
-    
+        
     printf("\n\n");
-
-
-
 
     for (i = 0; i < size2; i++) {
         free(arrayA[i]);
