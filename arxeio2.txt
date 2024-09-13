@@ -1,0 +1,5 @@
+R1 QQ 0 4
+R2 QQ 0 3
+V1 QQ ZZ 10
+R3 ZZ 0 2
+I1 0 ZZ 8

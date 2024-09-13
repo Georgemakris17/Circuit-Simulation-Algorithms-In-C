@@ -1,0 +1,6 @@
+VA XYZ 0 10
+R1 XYZ BBB 1
+R2 BBB 0 5
+R3 BBB ___ 2
+R4 ___ 0 10
+II 0 ___ 2
